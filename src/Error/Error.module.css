@@ -1,0 +1,13 @@
+.header{
+    font-weight: bolder;
+    color: red;
+    font-size: 30px;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+.p{
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
