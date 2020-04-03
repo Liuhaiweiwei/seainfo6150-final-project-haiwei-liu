@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "finalproject",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,16 @@
     "react-scripts": "3.4.1",
     "react-validator-ease": "0.0.9",
     "schema-typed": "^1.5.0"
+=======
+  "name": "seainfo6150-final-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0"
+>>>>>>> fd368db32a332e89a28703c08c400d69ae35674b
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,8 +48,12 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
   "devDependencies": {
     "@material-ui/core": "^4.9.8",
     "react-form-next": "^3.0.6"
   }
+=======
+  "proxy": "http://localhost:5000/"
+>>>>>>> fd368db32a332e89a28703c08c400d69ae35674b
 }
