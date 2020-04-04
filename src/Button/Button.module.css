@@ -1,0 +1,9 @@
+Button{
+    background-color: lightblue;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    width: 90%;
+}

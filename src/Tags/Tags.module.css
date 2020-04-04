@@ -18,13 +18,11 @@
 }
 
 
-.label{
-    display: block;
-    margin: 40px;
-    font-weight: bold;
-    font-family: Arial;
-    font-size: 25px;
-    color: chocolate;
+#button{
+    background-color: red;
+    border: none;
+    color: black;
+    text-align: center;
 }
 
 .img{
