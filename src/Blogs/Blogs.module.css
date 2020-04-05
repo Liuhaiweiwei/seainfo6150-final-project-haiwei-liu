@@ -3,7 +3,6 @@
     padding: 20px 20px 20px 20px;
     margin: 20px 20px 20px 20px;
     position: center;
-    background-color: snow;
     text-align: left;
 }
 
@@ -29,4 +28,19 @@
     display: block;
     text-align: center;
     color: orangered;
+}
+.bar{
+    text-align: center;
+    margin: 20px;
+}
+
+.currentpage{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+
+.bgc{
+    background-color: snow;
 }

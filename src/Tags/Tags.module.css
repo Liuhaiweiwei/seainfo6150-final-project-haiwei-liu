@@ -17,6 +17,22 @@
     margin: 20px;
 }
 
+.bar{
+    text-align: center;
+    margin: 20px;
+}
+
+.currentpage{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+
+.bgc{
+    background-color: snow;
+}
+
 
 #button{
     background-color: red;

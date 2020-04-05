@@ -10,7 +10,7 @@ class ChineseFoodButton extends React.Component{
     render(){
         return(
             <div>
-                <Button onClick={() => this.handleClick()}>Chinese Food</Button>
+                <Button onClick={() => this.handleClick()}>Food</Button>
             </div>
         );
     }

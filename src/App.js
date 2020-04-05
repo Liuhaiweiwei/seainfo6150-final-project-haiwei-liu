@@ -16,28 +16,9 @@ import Relax from "./TagDetails/Realx";
 
 function App() {
   return (
+    <div>
+        <header>Haiwei's Blog</header>
     <Router>
-      <div>
-        <nav>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/blogs/Btitle">Blogs</Link>
-                </li>
-                <li>
-                    <Link to="/tags">Tags</Link>
-                </li>
-                <li>
-                    <Link to="/about">About Me</Link>
-                </li>
-                <li>
-                    <Link to="/follow">Follow Me</Link>
-                </li>
-            </ul>
-        </nav>
-      </div>
         <Switch>
             <Route path="/" exact component={Home}></Route>
             <Route path="/about" exact component={About}></Route>
@@ -59,6 +40,7 @@ function App() {
             <Route component={Error}></Route>
         </Switch>
     </Router>
+    </div>
   );
 }
 

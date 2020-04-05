@@ -5,11 +5,29 @@ import ChineseFoodButton from "../Button/ChineseFoodButton";
 import Travel from "../Button/Travel";
 import Fruit from "../Button/Fruit";
 import Relax from "../Button/Relax";
+import {Link} from "react-router-dom";
 
 const Tags = () => {
     return (
-        <div>
+        <div className={styles.bgc}>
             <header className={styles.header}>Tags</header>
+            <div className={styles.bar}>
+                <span>
+                    <Link to="/">Home</Link>
+                </span>
+                <span>
+                    <Link to="/blogs/Btitle">Blogs</Link>
+                </span>
+                <span className={styles.currentpage}>
+                    <Link to="/tags">Tags</Link>
+                </span>
+                <span>
+                    <Link to="/about">About Me</Link>
+                </span>
+                <span>
+                    <Link to="/follow">Follow Me</Link>
+                </span>
+            </div>
             <nav>
                 <section className={styles.flexContainer}>
                     <div className={styles.div}>

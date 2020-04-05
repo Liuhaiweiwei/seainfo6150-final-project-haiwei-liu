@@ -1,10 +1,28 @@
 import React from "react";
 import styles from './Blogs.module.css';
+import {Link} from "react-router-dom";
 
 const Blogs =(props) => {
     return (
-        <div>
+        <div className={styles.bgc}>
             <header className={styles.header}>This is my {props.Btitle} Blogs</header>
+            <div className={styles.bar}>
+                <span>
+                    <Link to="/">Home</Link>
+                </span>
+                <span className={styles.currentpage}>
+                    <Link to="/blogs/Btitle">Blogs</Link>
+                </span>
+                <span>
+                    <Link to="/tags">Tags</Link>
+                </span>
+                <span>
+                    <Link to="/about">About Me</Link>
+                </span>
+                <span>
+                    <Link to="/follow">Follow Me</Link>
+                </span>
+            </div>
             <article className={styles.article}>
                 <h1 className={styles.h1}>WHY {props.Btitle}?</h1>
                 <p className={styles.p}>

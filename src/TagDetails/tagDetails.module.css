@@ -8,7 +8,7 @@
 }
 
 .section{
-    background-color: snow;
+    background-color: lightcyan;
     margin: 20px;
     padding: 20px;
 }
@@ -27,4 +27,13 @@
     margin: 10px;
     font-family: "Times New Roman";
     font-weight: normal;
+}
+
+.bar{
+    text-align: center;
+    margin: 20px;
+}
+
+.bgc{
+    background-color: snow;
 }

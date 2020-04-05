@@ -11,7 +11,7 @@
     font-family: Arial;
     font-weight: bold;
     color: darksalmon;
-    text-align: left;
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -28,7 +28,7 @@
     grid-template-columns: auto auto;
     padding: 20px;
     margin: 30px 30px 40px 40px;
-    background-color: snow;
+    background-color: lightcyan;
 }
 
 .gridItem{
@@ -37,6 +37,22 @@
     text-align: center;
     color: black;
     padding: 10px;
+}
+
+.bar{
+    text-align: center;
+    margin: 20px;
+}
+
+.currentpage{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+
+.bgc{
+    background-color: snow;
 }
 
 @media (max-width: 600px) {

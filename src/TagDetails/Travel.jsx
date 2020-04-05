@@ -1,10 +1,28 @@
 import React from "react";
 import styles from './tagDetails.module.css';
+import {Link} from "react-router-dom";
 
 const Travel = () => {
     return (
-        <div>
+        <div className={styles.bgc}>
             <header className={styles.header}>Travel Tag</header>
+            <div className={styles.bar}>
+                <span>
+                    <Link to="/">Home</Link>
+                </span>
+                <span>
+                    <Link to="/blogs/Btitle">Blogs</Link>
+                </span>
+                <span>
+                    <Link to="/tags">Tags</Link>
+                </span>
+                <span>
+                    <Link to="/about">About Me</Link>
+                </span>
+                <span>
+                    <Link to="/follow">Follow Me</Link>
+                </span>
+            </div>
             <section className={styles.section}>
                 <h1 className={styles.h1}>Blog Title : Seattle</h1>
                 <li className={styles.li}>
